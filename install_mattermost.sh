@@ -8,6 +8,6 @@ sudo apt-get install docker-compose-plugin
 sudo apt-get install git
 git clone
 wget https://raw.githubusercontent.com/stanickli/ProjetDevOps/main/docker-compose.yml
-docker compose up -d
+docker compose -p mattermost up
 
 EOF
