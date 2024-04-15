@@ -7,7 +7,7 @@ sudo sh ./get-docker.sh
 sudo apt-get install docker-compose-plugin
 sudo apt-get install git
 git clone
-wget https://github.com/stanickli/ProjetDevOps/blob/main/docker-compose.yml
-docker-compose up -d
+wget https://raw.githubusercontent.com/stanickli/ProjetDevOps/main/docker-compose.yml
+docker compose up -d
 
 EOF
