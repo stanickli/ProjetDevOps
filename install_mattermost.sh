@@ -6,7 +6,6 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh ./get-docker.sh
 sudo apt-get install docker-compose-plugin
 sudo apt-get install git
-docker run --name mattermost-preview -d --publish 8065:8065 mattermost/mattermost-preview
-
+docker-compose up -d
 
 EOF
