@@ -6,6 +6,8 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh ./get-docker.sh
 sudo apt-get install docker-compose-plugin
 sudo apt-get install git
+git clone
+wget https://github.com/stanickli/ProjetDevOps/blob/main/docker-compose.yml
 docker-compose up -d
 
 EOF
