@@ -50,4 +50,9 @@ sudo apt-get -y install grafana
 sudo systemctl enable grafana-server
 sudo systemctl start grafana-server
 
+wget https://raw.githubusercontent.com/stanickli/ProjetDevOps/main/installNE.sh
+sudo chmod +x installNE.sh
+sudo ./installNE.sh
+
+
 EOF

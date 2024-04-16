@@ -7,7 +7,10 @@ sudo sh ./get-docker.sh
 sudo apt-get install docker-compose-plugin
 sudo apt-get install git
 git clone
+wget https://raw.githubusercontent.com/stanickli/ProjetDevOps/main/installNE.sh
+sudo chmod +x installNE.sh
+sudo ./installNE.sh
 wget https://raw.githubusercontent.com/stanickli/ProjetDevOps/main/docker-compose.yml
-docker compose -p mattermost up
+sudo docker compose -p mattermost up
 
 EOF
