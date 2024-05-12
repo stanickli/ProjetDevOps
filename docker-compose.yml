@@ -1,9 +1,11 @@
 version: "2.4"
 
 services:
-  mattermost-preview:
-    image: rocketchat/rocket.chat.preview
+  rocketchat-preview:
+    image: stanick/rocket.chat
     container_name: rocket.chat
     ports:
       - "3000:3000"
     restart: unless-stopped
+    volumes:
+      - /RocketChatTransfert:/app/bundle/programs/web.browser/app/tmp
