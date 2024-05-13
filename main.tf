@@ -1,5 +1,4 @@
 provider "google" {
-  credentials = "credentials.json"
   project     = "chrome-setting-419912"
   region      = "europe-west9"
 }
