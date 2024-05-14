@@ -51,7 +51,7 @@ resource "google_compute_firewall" "terraform_firewall" {
 
   allow {
     protocol = "tcp"
-    ports    = ["22", "9000", "9090", "3000", "9100", "9093"]
+    ports    = ["22", "3000", "9090", "9093", "9100"]
   }
 
   source_ranges = ["0.0.0.0/0"]
